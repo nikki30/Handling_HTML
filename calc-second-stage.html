@@ -10,6 +10,9 @@ background-color:tan;
 .zoom
 {zoom: 200%
 } 
+.adjust
+{
+}
 .box
 {
 background-color:#000000;
@@ -26,6 +29,7 @@ position:relative;
 top:33px;
 text-align:right;
 left:0px;
+border-style:none;
 }
 .display input
 {
@@ -45,6 +49,7 @@ background-color:#7CFC00;
 border-bottom:black 2px solid;
 border-top:2px FF9933 solid;
 color: white;
+width:27.5px;
 }
 .button.blue
 {
@@ -59,6 +64,16 @@ color: white;
 background-color:#696969;
 border-bottom:black 2px solid;
 border-top:2px FF9933 solid;
+font-size:13px;
+width:28px;
+}
+.button.greyo
+{
+color: white;
+background-color:#696969;
+border-bottom:black 2px solid;
+border-top:2px FF9933 solid;
+width:22.5px;
 }
 .button.greytwo
 {
@@ -66,6 +81,14 @@ color: white;
 background-color:#778899;
 border-bottom:black 2px solid;
 border-top:2px FF9933 solid;
+}
+.button.greytwoo
+{
+color: white;
+background-color:#778899;
+border-bottom:black 2px solid;
+border-top:2px FF9933 solid;
+width:23.5px;
 }
 .display
 {
@@ -88,8 +111,8 @@ height:75px;
 </tr>
 <tr>
 <td><input type="reset" class="Button blue" value="C"></
-<td><input type="button" class="Button grey" value="/" onClick="document.calculator.ans.value+='/'"></t
-<td><input type="button" class="Button grey" value="x" onClick="document.calculator.ans.value+='*'"></t
+<td><input type="button" class="Button greyo" value="/" onClick="document.calculator.ans.value+='/'"></t
+<td><input type="button" class="Button greyo" value="x" onClick="document.calculator.ans.value+='*'"></t
 <td><input type="button" class="Button grey" value="&larr;" onClick="document.calculator.ans.value = document.calculator.ans.value.substring(0,document.calculator.ans.value.length*1 -1)"></td>
 </tr>
 <tr>
@@ -111,9 +134,9 @@ height:75px;
 <td><input type="button" class="Button grey" value="(" onClick="document.calculator.ans.value+='('"></td>
 </tr>
 <tr>
-<td><input type="button" class="Button greytwo" value="0" onClick="document.calculator.ans.value+='0'"></
-<td><input type="button" class="Button greytwo" value="." onClick="document.calculator.ans.value+='.'"></t
-<td><input type="button" class="Button greytwo" value=")" onClick="document.calculator.ans.value+=')'"></t
+<td><input type="button" class="Button greytwoo" value="0" onClick="document.calculator.ans.value+='0'"></
+<td><input type="button" class="Button greytwoo" value="." onClick="document.calculator.ans.value+='.'"></t
+<td><input type="button" class="Button greytwoo" value=")" onClick="document.calculator.ans.value+=')'"></t
 <td><input type="button" class="button green"  value="=" onClick="document.calculator.ans.value=eval(document.calculator.ans.value)"></td>
 </tr>
 </table>
