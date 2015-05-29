@@ -2,7 +2,7 @@
 Spider Inductions.
 #**My Page for Spider Webdev Inductions!**
 ---
-Welcome to my humble abode.
+Welcome to my humble abode!
 
 This is my page for the Webdev Inductions held by Spider. 
 
