@@ -1,3 +1,4 @@
+
 <html>
 <head>
 <title>HTML calculator</title>
@@ -8,15 +9,14 @@ body
 background-color:tan;
 }
 .zoom
-{zoom: 200%;
+{zoom: 225.25%;
 }
-
 .box
 {
 background-color:#000000;
-height:489px;
-width:228px;
-border-radius:2px;
+height:450px;
+width:240px;
+border-radius: 1px;
 position:relative;
 top:10px;
 left:40%;
@@ -24,20 +24,20 @@ left:40%;
 .keys
 {
 position:relative;
-top:33px;
+top:30px;
 text-align:right;
-left:0px;
+left:3px;
 }
 .display input
 {
 position:relative;
-left:2px;
-bottom:8px;
+left:7px;
+bottom:13px;
 height:35px;
 color:black;
 background-color:#FFFFFF;
-padding:40px;
-font-size:14.9px;
+padding:50px;
+font-size:12.1px;
 text-align:right;
 } 
 .button.green
@@ -59,6 +59,8 @@ border-top:2px FF9933 solid;
 border:2px solid black;
 height: 30px;
 width:25px;
+margin-right: -3px;
+margin-bottom:-6px;
 }
 .button.grey
 {
@@ -70,6 +72,7 @@ font-size:13px;
 width:33px;
 height:30px;
 margin:1.5px;
+margin-bottom:-6px;
 }
 .button.greyy
 {
@@ -82,6 +85,8 @@ width:30px;
 text-align:center;
 margin:2.95px;
 height:28.5px;
+margin-bottom:-6px;
+
 }
 .button.greyo
 {
@@ -91,6 +96,8 @@ border-bottom:black 2px solid;
 border-top:2px FF9933 solid;
 width:23.19px;
 height: 30px;
+ margin-right: -3px;
+margin-bottom:-6px;
 }
 .button.greytwo
 {
@@ -100,15 +107,19 @@ border-bottom:black 2px solid;
 border-top:2px FF9933 solid;
 width:24px;
 height: 30px;
+ margin-right: -3px;
 }
 .button.greytwoo
-{
+{ 
 color: white;
 background-color:#778899;
 border-bottom:black 2px solid;
 border-top:2px FF9933 solid;
 width:23.959px;
 height:30px;
+ margin-right: -3px;
+margin-bottom:-100px;
+
 }
 .display
 {
@@ -136,21 +147,21 @@ height:70px;
 <td><input type="button" class="Button greyy" value="&larr;" onClick="document.calculator.ans.value = document.calculator.ans.value.substring(0,document.calculator.ans.value.length*1 -1)" style="border-style:none"></td>
 </tr>
 <tr>
-<td><input type="button" class="Button greytwo" value="7" onClick="document.calculator.ans.value+='7'" style="border-style:none;border:1px solid black;"></t
-<td><input type="button" class="Button greytwo" value="8" onClick="document.calculator.ans.value+='8'" style="border-style:none; border:1px solid black;"></t
-<td><input type="button" class="Button greytwo" value="9" onClick="document.calculator.ans.value+='9'" style="border-style:none; border:1px solid black;"></t
+<td><input type="button" class="Button greytwo" value="7" onClick="document.calculator.ans.value+='7'" style="border-style:none;border:1px solid black;margin-bottom:-6px;"></t
+<td><input type="button" class="Button greytwo" value="8" onClick="document.calculator.ans.value+='8'" style="border-style:none; border:1px solid black;margin-bottom:-6px;"></t
+<td><input type="button" class="Button greytwo" value="9" onClick="document.calculator.ans.value+='9'" style="border-style:none; border:1px solid black;margin-bottom:-6px;"></t
 <td><input type="button" class="Button grey" value="-" onClick="document.calculator.ans.value+='-'" style="border-style:none; border:1px solid black;"></td>
 </tr>
 <tr>
-<td><input type="button" class="Button greytwo" value="4" onClick="document.calculator.ans.value+='4'"style="border-style:none; border:1px solid black;"></t
-<td><input type="button" class="Button greytwo" value="5" onClick="document.calculator.ans.value+='5'" style="border-style:none; border:1px solid black;"></t
-<td><input type="button" class="Button greytwo" value="6" onClick="document.calculator.ans.value+='6'" style="border-style:none; border:1px solid black;"></t
+<td><input type="button" class="Button greytwo" value="4" onClick="document.calculator.ans.value+='4'"style="border-style:none; border:1px solid black;margin-bottom:-20px;"></t
+<td><input type="button" class="Button greytwo" value="5" onClick="document.calculator.ans.value+='5'" style="border-style:none; border:1px solid black; margin-bottom:-6px;"></t
+<td><input type="button" class="Button greytwo" value="6" onClick="document.calculator.ans.value+='6'" style="border-style:none; border:1px solid black;margin-bottom:-6px;"></t
 <td><input type="button" class="Button grey" value="+" onClick="document.calculator.ans.value+='+'"style="border-style:none; border:1px solid black;"></td>
 </tr>
 <tr>
-<td><input type="button" class="Button greytwo" value="1" onClick="document.calculator.ans.value+='1'" style="border-style:none; border:1px solid black;"></t
-<td><input type="button" class="Button greytwo" value="2" onClick="document.calculator.ans.value+='2'"style="border-style:none;border:1px solid black;"></t
-<td><input type="button" class="Button greytwo" value="3" onClick="document.calculator.ans.value+='3'" style="border-style:none;border:1px solid black;"></t
+<td><input type="button" class="Button greytwo" value="1" onClick="document.calculator.ans.value+='1'" style="border-style:none; border:1px solid black;margin-bottom:-6px;"></t
+<td><input type="button" class="Button greytwo" value="2" onClick="document.calculator.ans.value+='2'"style="border-style:none;border:1px solid black;margin-bottom:-6px;"></t
+<td><input type="button" class="Button greytwo" value="3" onClick="document.calculator.ans.value+='3'" style="border-style:none;border:1px solid black;margin-bottom:-6px;"></t
 <td><input type="button" class="Button greyy" value="(" onClick="document.calculator.ans.value+='('"style="border-style:none"></td>
 </tr>
 <tr>
