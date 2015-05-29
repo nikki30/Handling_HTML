@@ -51,7 +51,7 @@ And what better way to make a page light, than put a joke in it.
 ---
 ####**He said, "Jamaican me crazy!"**
 
-{To be read as (Yo' making)me crazy!"}
+{To be read as "(Yo' making)me crazy!"}
 
 Beauty, eh?
 Jokes I love. Reading them, listening to them and much to my friends' annoyance, telling them!
