@@ -4,7 +4,7 @@ Spider Inductions.
 ---
 Welcome to my humble abode!
 
-This is my page for the Webdev Inductions held by Spider. 
+This is my page for the Web-dev Inductions held by Spider. 
 
 My first attempt at HTML. 
 
