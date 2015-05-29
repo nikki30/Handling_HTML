@@ -35,38 +35,35 @@ And it helped me meet a lot of new, nice people! Very Grateful.
 
 ---
 ---
-My ReadMe Page ideally should be light.Not too much, yet not too less.
+My ReadMe Page ideally should be light. Not too much, yet not too less.
 
 And what better way to make a page light, than put a joke in it.
 
 ![joke alert](images/joke.png) 
 
-### The Joke
+#### The Joke
 
-What did Usain Bolt say when he got mad?
+#####What did Usain Bolt say when he got mad?
 ---
 ---
+######Skipping lines for dramatic pause
 ---
->Skipping lines for dramatic pause and pretence interest
 ---
----
-
-
-**He said, "Jamaican me crazy!"**
+####**He said, "Jamaican me crazy!"**
 
 {To be read as (Yo' making)me crazy!"}
 
 Beauty, eh?
 Jokes I love. Reading them, listening to them and much to my friends' annoyance, telling them!
 
-### The Calculator
+## The Calculator
 
 The past few days have involved me sitting on my laptop, reading a lot of HTML and trying to build a Calculator as per the task.
 The Calculator I have built is of The Kit-Kat design, as that is what I have on my Smartphone. 
 It involves the basic operations:
 Add, Subtract, Multiply and Divide along with the option to Single backspace, or Completely Clear.
 
-### Instructions to obtain my working calculator on your local machine:
+## Instructions to obtain my working calculator on your local machine:
 
 1) Towards the right of my github page, you will notice the "Download ZIP" option.
 
@@ -81,6 +78,20 @@ The only three in consideration are: index.html, test.css and calc-second-stage.
 3)Click on index.html. It will take you to my intro page where you will also find the link saying "Calculator".
 
 Clicking on it will take you to My Calculator. 
+
+###Screenshot of WebPage Calculator
+
+![MyCalc](images/mycalc.png.jpg)
+
+###Screenshot of Android Calculator
+
+![AndroidCalc](images/android.png)
+
+
+###Thanks for Visiting!
+
+##Guess I'll ~~Calcu~~ See you Later!
+  
 
 
 
