@@ -1,10 +1,5 @@
-# nikki30.github.io
-Spider Inductions.
-#**My Page for Spider Webdev Inductions!**
----
-Welcome to my humble abode!
 
-This is my page for the Web-dev Inductions held by Spider. 
+Welcome to my humble abode!
 
 My first attempt at HTML. 
 
